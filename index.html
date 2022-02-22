@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions 3</title>
+</head>
+<body>
+
+    <!-- # Homework exercise 1
+
+    - Write a javascript function that will accept four paremetars: name, food, drink and callback.
+    - Invoking the callback parametar in this parent function, should print in console the person's favoutite food,drink and name.
+    
+    Example Output: "${name} favourite food is ${food}, favourite drink is ${drink}";
+    
+    BONUS: Get the values from HTML and Print in HTML -->
+
+
+    <input type="text" name="name" id="nameInput" placeholder="Please enter your name">
+    <br/>
+    <br/>
+    <input type="text" name="food" id="foodInput" placeholder="Please enter food">
+    <br/>
+    <br/>
+    <input type="text" name="drink" id="drinkInput" placeholder="Please enter drink">
+    <br/>
+    <br/>
+
+    <button id="myBtn">Click</button>
+
+    <div id="resultDiv">
+
+    </div>
+
+
+<hr/>
+
+
+
+    <!-- # Homework exercise 2
+
+- Write a javascript function that will accept two parametars, person and callback .
+- Person should be object that contains the following properties: name, lastName, age, gender, hobbies.
+- Invoking the callback parametar in this parent function, should print the person in HTML.
+
+BONUS: Get the values from HTML. -->
+
+
+<br/>
+<br/>
+
+
+
+
+<h3 id="pername"> Person INFO:</h3>
+
+<hr/>
+
+
+<!-- - Write a function that will accept one paremetar array of 10 grades.
+- The function should return new Promise();
+- If the avarage of the grades is below 3 we should reject with the following message: "Student did not pass"
+- If the avarage is above or equal to 3 we should resolve with the following messsage: "Student pass"
+- Call the function with the coresponding argument and print in console ;).
+
+BONUS: Print in html -->
+
+
+
+<input type="text" name="userInput" id="gradeInput" placeholder="Please enter your grade">
+</br>
+</br>
+
+<button id="gradeButton">Result</button>
+<div id="resultGrade">
+    
+</div>
+
+
+<br/>
+<br/>
+
+
+
+<hr/>
+<!-- 
+# Homework exercise 4
+
+- Create a function that will make api call to this url: https://swapi.dev/api/films
+  (The api will return the informations about all Star Wars Movies)
+- After receiving the response, print in HTML: the movie title, director, producer and release date;
+- Use async/await syntax . -->
+
+<h1> Exercise 1 SwapiApi</h1>
+
+
+<div id="resultSwapiApi">
+
+</div>
+
+
+    <script src="/index.js"></script>
+</body>
+</html>
